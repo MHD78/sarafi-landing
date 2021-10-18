@@ -468,12 +468,11 @@ footer{
     width: 100%;
 }
 footer .wraper{
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-align: right;
     flex-wrap: wrap;
     row-gap: 20px;
