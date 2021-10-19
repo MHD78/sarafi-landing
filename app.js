@@ -25,7 +25,8 @@ class Instance{
         for(const asst of this.data){
             MainRender.render(asst);
         }
-    }    
+    }
+
     
 }
 
@@ -53,3 +54,9 @@ class MainRender{
 
 const run = new Instance();
 run.wraper();
+
+
+const form = document.querySelector('form').lastElementChild;
+form.addEventListener('click',event=>{
+    event.preventDefault();
+})
