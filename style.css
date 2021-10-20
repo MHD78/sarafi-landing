@@ -160,6 +160,7 @@ a{
 }
 /* items-table */
 .items{
+    padding: 0 20px;
     max-width: 1280px;
     width: 90%;
     background-color: var(--main-bg-color);
@@ -169,7 +170,8 @@ a{
     left: 0;
     right: 0;
     text-align: center;
-    bottom: 200px;
+    top:-150px;
+    /* bottom: 20px; */
     border-radius: 8px;
     overflow: hidden;
 }
@@ -545,11 +547,14 @@ footer ul li:hover{
         display: none;
     }
     .comments{
-        width: 85%;
+        width: 95%;
         font-size: var(--phone-size-font-size);
     }
     .comments .box{
         padding: 32px 10px;
+    }
+    .FAQ{
+        width: 100%;
     }
     .rest-data ul li h2{
         font-size: 1.25rem;
